@@ -25,8 +25,10 @@ class XcodeDiscordRpc < Formula
         </array>
         <key>RunAtLoad</key>
         <true/>
+        <key>StandardOutPath</key>
+        <string>/usr/local/var/log/hombebrew/xcode-discord-rpc/homebrew.mxcl.xcode-discord-rpc.log</string>
         <key>StandardErrorPath</key>
-	        <string>xcode-discord-rpc.log</string>
+        <string>/usr/local/var/log/hombebrew/xcode-discord-rpc/homebrew.mxcl.xcode-discord-rpc.stderr.log</string>
       </dict>
       </plist>
     EOS
