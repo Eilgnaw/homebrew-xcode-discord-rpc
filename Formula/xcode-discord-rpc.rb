@@ -25,6 +25,8 @@ class XcodeDiscordRpc < Formula
         </array>
         <key>RunAtLoad</key>
         <true/>
+        <key>StandardErrorPath</key>
+	        <string>xcode-discord-rpc.log</string>
       </dict>
       </plist>
     EOS
