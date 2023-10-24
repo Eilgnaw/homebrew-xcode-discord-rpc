@@ -1,9 +1,9 @@
 class XcodeDiscordRpc < Formula
   desc "A simple Discord Rich Presence client for Xcode"
   homepage "https://github.com/izyumidev/xcode-discord-rpc"
-  url "https://github.com/izyumidev/xcode-discord-rpc/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "18b73f8352741d7ad7205b00b689a159d480a50319260b3c1a9ba8ef81c2a66c"
-  version "0.1.6"
+  url "https://github.com/izyumidev/xcode-discord-rpc/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "bcbaf26ad868507ec6b53332b6bc478fb971fb6d725224ab2c920b623a509067"
+  version "0.1.7"
 
   def install
     bin.install "xcode-discord-rpc"
