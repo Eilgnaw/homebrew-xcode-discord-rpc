@@ -12,7 +12,7 @@ class XcodeDiscordRpc < Formula
   service do
     run opt_bin/"xcode-discord-rpc"
     keep_alive true
-    log_path var/"log/xcode-discord-rpc.log"
-    error_log_path var/"log/xcode-discord-rpc.log"
+    working_dir var/"xcode-discord-rpc"
+    error_log_path var/"xcode-discord-rpc/discord-rpc.log"
   end
 end
